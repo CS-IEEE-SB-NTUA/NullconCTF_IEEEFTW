@@ -29,7 +29,15 @@ The third checker reverses our flag and compares it with the string "_!ftcnocllu
 
 ![checker3](/images/checker3.png)
 
+So the third part is _lolnullconctf!_
+
 ### 4th Checker
 
 Last checker just compares the final part of the flag against a constant string: "you_solved_it!!}"
+
+![checker4](/images/checker4.png)
+
+### Putting it all together
+
+Putting it all together we get the flag: ENO{L133333333337_super_duper_ok_lolnullconctf!_you_solved_it!!}
 
