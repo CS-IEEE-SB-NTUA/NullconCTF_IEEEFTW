@@ -7,5 +7,5 @@ Please prove him wrong.
 Ahh the classic "ECB Penguin". This challenge illustrates the great deficiencies of the ECB mode.
 We used this [tool](https://doegox.github.io/ElectronicColoringBook/).
 And we get the flag:
-![solution](\images\bmpass_flag.png)
+![bmpass_flag](/images/bmpass_flag.png)
 
