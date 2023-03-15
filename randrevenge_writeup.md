@@ -345,7 +345,7 @@ print(s.post("http://52.59.124.14:10019/submit",data=data).text)
 
 ```
 
-this script reinitializes the state (by sending a post request to the main route instead of the / submit ) and gets the timestamp and the random generations from the response. It then runs a for loop from 0 to 300 and checks if any of the indexes that have the same %60 as the timestamp are the desired 226. if this happend it prints the seed and sends the user input to the service.
+this script reinitializes the state (by sending a post request to the main route instead of the / submit ) and gets the timestamp and the random generations from the response. It then runs a for loop from 0 to 300 and checks if the index that haas the same %60 as the timestamp us the desired 226. if this happened it prints the seed and sends the user input to the service.
 
 after running this we get something like this:
 
@@ -424,3 +424,5 @@ lol
 803053606
 FLAG ENO{PHD_1N_TrU3_R4nd0n0m1c5_516189}
 ```
+
+(Note: This is the flag of randrevengerevenge, but the same process is followed for randrevenge too).
