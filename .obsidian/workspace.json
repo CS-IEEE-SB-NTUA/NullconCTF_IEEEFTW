@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6582087e2b31ec40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "babyrand_writeup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "requests_writeup.md",
+                "file": "babyrand_writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "requests_writeup.md",
+                "file": "babyrand_writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "requests_writeup.md"
+                "file": "babyrand_writeup.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e02022d7630e6cf",
+  "active": "6582087e2b31ec40",
   "lastOpenFiles": [
-    "breaking_news_writeup.md",
     "requests_writeup.md",
+    "babyrand_writeup.md",
+    "breaking_news_writeup.md",
     "bmpass_writeup.md"
   ]
 }
