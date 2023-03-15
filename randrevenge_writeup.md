@@ -315,7 +315,7 @@ from solve import main
 
 s = requests.Session()
 while(True):
-	l = s.post("http://52.59.124.14:10019").text
+	l = s.post("http://`52.59.124.14:10012").text
 #	print(1)
 	arr = l.split('\n')
 	time = int(arr[0])
@@ -340,7 +340,7 @@ randomaki = input()
 
 data = {"next":randomaki}
 
-print(s.post("http://52.59.124.14:10019/submit",data=data).text)
+print(s.post("http://`52.59.124.14:10012/submit",data=data).text)
 
 
 ```
@@ -420,7 +420,7 @@ After that we get the flag:
 45
 46
 lol
-1042126681
-803053606
-FLAG ENO{PHD_1N_TrU3_R4nd0n0m1c5_516189}
+1226534836
+1283606073
+FLAG ENO{M4sT3r_0f_R4nd0n0m1c5}
 ```
