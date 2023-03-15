@@ -85,7 +85,7 @@ love.graphics.draw(gTextures['dots'],0,30,0,0.19,0.2)
 love.graphics.draw(gTextures['dots2'],0,180,0,0.19,0.2)
 ```
 
-We can patch the level check (if self.level == 10) to Level 1, so that another line of text will be generated:
+We can patch the level check (if self.level == 10) to if self.level == 1, so that another line of text will be generated:
 
 We then recompile the game, we view the screen:
 
