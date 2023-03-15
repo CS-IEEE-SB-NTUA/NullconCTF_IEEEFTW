@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "0e02022d7630e6cf",
+            "id": "b1a62d9aa7a10f46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "requests_writeup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6582087e2b31ec40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "babyrand_writeup.md",
+                "file": "randrevenge_writeup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "babyrand_writeup.md",
+                "file": "randrevenge_writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "babyrand_writeup.md",
+                "file": "randrevenge_writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "babyrand_writeup.md"
+                "file": "randrevenge_writeup.md"
               }
             }
           }
@@ -172,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6582087e2b31ec40",
+  "active": "b1a62d9aa7a10f46",
   "lastOpenFiles": [
+    "breaking_news_writeup.md",
+    "randrevenge_writeup.md",
     "requests_writeup.md",
     "babyrand_writeup.md",
-    "breaking_news_writeup.md",
     "bmpass_writeup.md"
   ]
 }
