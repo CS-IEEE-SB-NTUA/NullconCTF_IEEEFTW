@@ -13,7 +13,7 @@ $$e_2'=\frac{e_2}{17}$$
 From Bezout's identity we can find the proper u, v such that:
 $$u\ast e_1'+v\ast e_2'=1$$
 Now we can see the following holds:
-$$c_1^{u}*c_2^{v}=m^{e_1*u}*m^{e_2*v}$$ $$=m^{17*(u*e_1'+v*e_2')}={(m^{u*e_1'+v*e_2'})}^{17}=(m^1)^{17}=m^{17}$$
+$$c_1^{u}\ast c_2^{v}=m^{e_1\ast u}\ast m^{e_2\ast v}=m^{17\ast (u\ast e_1'+v\ast e_2')}={(m^{u\ast e_1'+v\ast e_2'})}^{17}=(m^1)^{17}=m^{17}$$
 After performing the above caclulations using the two ciphertexts and u, v we try to get the 17th root of the new ciphertext. Thankfully, 17 is a small enough exponent and we get the correct m.
 Finally we convert to bytes and get the flag: b'ENO{5har1ng_is_n0t_c4r1ng}'!
 
