@@ -2,6 +2,7 @@
 WARNING: only psychics and wizards will be able complete this one
 
 sorry :/
+52.59.124.14:10012
 # Solution
 
 In this challenge we have a web service that runs a php script (index.php).
@@ -315,7 +316,7 @@ from solve import main
 
 s = requests.Session()
 while(True):
-	l = s.post("http://`52.59.124.14:10012").text
+	l = s.post("http://52.59.124.14:10012").text
 #	print(1)
 	arr = l.split('\n')
 	time = int(arr[0])
@@ -340,12 +341,12 @@ randomaki = input()
 
 data = {"next":randomaki}
 
-print(s.post("http://`52.59.124.14:10012/submit",data=data).text)
+print(s.post("http://52.59.124.14:10012/submit",data=data).text)
 
 
 ```
 
-this script reinitializes the state (by sending a post request to the main route instead of the / submit ) and gets the timestamp and the random generations from the response. It then runs a for loop from 0 to 300 and checks if any of the indexes that have the same %60 as the timestamp are the desired 226. if this happend it prints the seed and sends the user input to the service.
+this script reinitializes the state (by sending a post request to the main route instead of the / submit ) and gets the timestamp and the random generations from the response. It then runs a for loop from 0 to 300 and checks if the index that haas the same %60 as the timestamp us the desired 226. if this happened it prints the seed and sends the user input to the service.
 
 after running this we get something like this:
 
@@ -424,3 +425,5 @@ lol
 1283606073
 FLAG ENO{M4sT3r_0f_R4nd0n0m1c5}
 ```
+
+(Note: This is the flag of randrevengerevenge, but the same process is followed for randrevenge too).

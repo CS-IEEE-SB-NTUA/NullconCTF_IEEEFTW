@@ -10,7 +10,7 @@ We are presented with a python ast file consisting of some flag (license) checke
 
 The first checker checks our flag against some constant input:
 
-![checker1](/images/checker1.png)
+![checker1](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/blob/master/images/checker1.png)
 
 Gathering all these values we see that the first part of the flag is ENO{L13333333333
 
@@ -18,8 +18,8 @@ Gathering all these values we see that the first part of the flag is ENO{L133333
 
 The second checker checks our flag against some constant values, after XORing them with number 19
 
-![checker2_1](/images/checker2_1.png)
-![checker2_2](/images/checker2_2.png)
+![checker2_1](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/blob/master/images/checker2_1.png)
+![checker2_2](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/blob/master/images/checker2_2.png)
 
 So after performing correct XORs we get the second part: 7_super_duper_ok
 
@@ -27,7 +27,7 @@ So after performing correct XORs we get the second part: 7_super_duper_ok
 
 The third checker reverses our flag and compares it with the string "_!ftcnocllunlol_"
 
-![checker3](/images/checker3.png)
+![checker3](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/blob/master/images/checker3.png)
 
 So the third part is _lolnullconctf!_
 
@@ -35,7 +35,7 @@ So the third part is _lolnullconctf!_
 
 Last checker just compares the final part of the flag against a constant string: "you_solved_it!!}"
 
-![checker4](/images/checker4.png)
+![checker4](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/blob/master/images/checker4.png)
 
 ### Putting it all together
 
