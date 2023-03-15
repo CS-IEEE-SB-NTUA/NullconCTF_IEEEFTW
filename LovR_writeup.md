@@ -89,6 +89,6 @@ We can patch the level check (if self.level == 10) to Level 1, so that another l
 
 We then recompile the game, we view the screen:
 
-![flag](/images/flag_LovR.png)
+![flag](/images/flag_lovr.png)
 
 So the flag is FL4G_TW33N!!
