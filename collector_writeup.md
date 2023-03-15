@@ -33,7 +33,7 @@ $$m^3=c_1 \: mod \: n_1$$
 $$m^3=c_2 \: mod \: n_2$$
 $$m^3=c_3 \: mod \: n_3$$
 Using the chinese remainder theorem we can calculate $$m^3$$ from these three congruences and 
-since for RSA all messages are smaller than the modulus ($$m<n_i$$) it follows that $$m^3<n_1*n_2*n_3$$ so we are guaranteed to have the correct answer.
+since for RSA all messages are smaller than the modulus ($$m < n_i$$) it follows that $$m^3 < n_1\ast n_2\ast n_3$$ so we are guaranteed to have the correct answer.
 
 Now given $$m^3$$ we can compute $$m$$ simply by calculating the cube root over the integers.
 But this m is not the flag! Don't forget we have to undo all that padding. Thankfully, it's completely reversible.
