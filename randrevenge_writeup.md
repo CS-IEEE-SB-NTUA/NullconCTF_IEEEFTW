@@ -425,5 +425,3 @@ lol
 1283606073
 FLAG ENO{M4sT3r_0f_R4nd0n0m1c5}
 ```
-
-(Note: This is the flag of randrevengerevenge, but the same process is followed for randrevenge too).
