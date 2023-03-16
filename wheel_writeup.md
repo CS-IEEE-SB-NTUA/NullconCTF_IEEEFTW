@@ -1,5 +1,3 @@
-# Description
-
 # Challenge
 
 Can you stop the wheels at the right time to win?
