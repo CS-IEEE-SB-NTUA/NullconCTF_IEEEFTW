@@ -12,7 +12,7 @@ After googling a little, we see that we can obtain the source code of the game j
 
 However, after playing the game for a while, we notice a strange static on load
 
-![static](/images/εικόνα.png)
+![static](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/raw/master/images/%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1.png)
 
 (Note: some text seems to be hidden under the static but this is not very clear from the image)
 
@@ -89,6 +89,6 @@ We can patch the level check (if self.level == 10) to if self.level == 1, so tha
 
 We then recompile the game, we view the screen:
 
-![flag](/images/flag_lovr.png)
+![flag](https://github.com/CS-IEEE-SB-NTUA/NullconCTF_IEEEFTW/raw/master/images/flag_lovr.png)
 
 So the flag is FL4G_TW33N!!
